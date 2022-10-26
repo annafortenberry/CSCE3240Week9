@@ -44,12 +44,12 @@ body {
 
 .sidebar .nav-link {
   font-weight: 500;
-  color: #333;
+  color: white;
 }
 
 .sidebar .nav-link .feather {
   margin-right: 4px;
-  color: #727272;
+  color: grey;
 }
 
 .sidebar .nav-link.active {
@@ -69,6 +69,10 @@ body {
 /*
  * Navbar
  */
+
+ .navbar {
+  background-color: #484848;
+ }
 
 .navbar-brand {
   padding-top: .75rem;
