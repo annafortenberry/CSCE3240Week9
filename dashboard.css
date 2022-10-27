@@ -35,6 +35,10 @@ body {
   background-color: #202020;
 }
 
+.data-feather {
+  color: grey;
+}
+
 @media (max-width: 767.98px) {
   .sidebar {
     top: 5rem;
