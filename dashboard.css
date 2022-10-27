@@ -31,12 +31,8 @@ body {
   z-index: 100; /* Behind the navbar */
   padding: 100px 0 0; /*48px 0 0; /* Height of navbar */
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
-  color: white;
-  background-color: #202020;
-}
-
-.data-feather {
-  color: grey;
+  color: red;
+  background-color: red;
 }
 
 @media (max-width: 767.98px) {
@@ -52,17 +48,18 @@ body {
   padding-top: .5rem;
   overflow-x: hidden;
   overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-  background-color: #202020;
+  color: orange;
+  background-color: orange;
 }
 
 .sidebar .nav-item {  
-  color: white;
+  color: purple;
 }
 
 .sidebar .nav-link {
   font-weight: 500;
-  color: grey;
-  background-color: #202020;
+  color: green;
+  background-color: green;
 }
 
 .sidebar .nav-link .feather {
@@ -71,7 +68,7 @@ body {
 }
 
 .sidebar .nav-link.active {
-  color: magenta;
+  color: rgb(57, 20, 100);
 }
 
 .sidebar .nav-link:hover .feather,
@@ -82,7 +79,7 @@ body {
 .sidebar-heading {
   font-size: .75rem;
   text-transform: uppercase;
-  color: white;
+  color: yellow;
 }
 
 /*
