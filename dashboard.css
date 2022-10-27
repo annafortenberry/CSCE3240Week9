@@ -19,6 +19,10 @@ body {
  * Sidebar
  */
 
+ .container-fluid {
+  background-color: #202020;
+ }
+
 .sidebar {
   position: fixed;
   top: 0;
