@@ -58,7 +58,7 @@ body {
 
 .sidebar .nav-link {
   font-weight: 500;
-  color: grey;
+  color: white;
   background-color: #202020;
 }
 
@@ -71,9 +71,10 @@ body {
   color: rgb(103, 6, 214);
 }
 
+/* doesn't change icon color
 .home {
   color: rgb(103, 6, 214);
-}
+}*/
 
 .sidebar .nav-link:hover .feather,
 .sidebar .nav-link.active .feather {
