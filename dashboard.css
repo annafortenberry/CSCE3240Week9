@@ -121,12 +121,11 @@ body {
 .form-control-dark {
   color: #fff;
   background-color: #484848;
-  /*border-color: rgba(255, 255, 255, .1);*/
+  border-color: yellow;
 }
 
 .form-control-dark:focus {
   border-color: transparent;
-  box-shadow: 0 0 0 3px yellow;
 }
 
 /*<a class="nav-link px-3" href="#">Sign out</a>*/
