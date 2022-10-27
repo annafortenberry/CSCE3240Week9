@@ -7,16 +7,21 @@ body {
   width: 16px;
   height: 16px;
   vertical-align: text-bottom;
+  /* color: grey; */
 }
+
+/*
 
  .sidebar {
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
-  z-index: 100; /* Behind the navbar */
-  padding: 48px 0 0; /* Height of navbar */
+  left: 0;
+  z-index: 100; /* Behind the navbar 
+  padding: 48px 0 0; /* Height of navbar 
   box-shadow: inset 1px 0 0 rgba(0, 0, 0, .1);
+  background-color: #202020;
 }
 
 .h2 {
@@ -32,17 +37,17 @@ body {
 .sidebar-sticky {
   position: relative;
   top: 0;
+  left: 0;
   height: calc(100vh - 48px);
   padding-top: .5rem;
   overflow-x: hidden;
-  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-  background-color: #202020;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. 
 }
 
 .sidebar .nav-link {
   font-weight: 500;
   color: #333;
-  /*background-color: #202020;*/
+  /*background-color: #202020;
 }
 
 .sidebar .nav-link .feather {
@@ -94,48 +99,7 @@ body {
   box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
 }
 
-
-/*
-.feather {
-  width: 16px;
-  height: 16px;
-  vertical-align: text-bottom;
-  color: grey;
-}
-
- .container-fluid {
-  background-color: #202020;
- }
-
- .row {
-  background-color: #202020;
- }
-
- #sidebarManu {
-  background-color: #202020;
- }
-
-.sidebar {
-  position: fixed;
-  top: 0;
-  /* rtl:raw:
-  right: 0;
-  
-  bottom: 0;
-  /* rtl:remove 
-  left: 0;
-  z-index: 100; /* Behind the navbar 
-  padding: 100px 0 0; /*48px 0 0; /* Height of navbar 
-  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
-  /*color: red;
-  background-color: red;
-}
-
-@media (max-width: 767.98px) {
-  .sidebar {
-    top: 5rem;
-  }
-}
+*/
 
 .sidebar-sticky {
   position: relative;
@@ -143,14 +107,14 @@ body {
   height: calc(100vh - 48px);
   padding-top: .5rem;
   overflow-x: hidden;
-  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. 
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
   /*color: orange;
-  background-color: orange;
+  background-color: orange; */
 }
 
 /*.sidebar .nav-item {  
   color: purple;
-}
+} */
 
 .sidebar .nav-link {
   font-weight: 500;
@@ -161,15 +125,9 @@ body {
 .sidebar .nav-link .feather {
   margin-right: 4px;
   color: rgb(103, 6, 214);
-  /*color: magenta;
 }
 
 .sidebar .nav-link.active {
-  color: rgb(103, 6, 214);
-}
-
-/* doesn't change icon color
-.home {
   color: rgb(103, 6, 214);
 }
 
@@ -189,14 +147,14 @@ body {
   <div class="navbar-nav">
     <div class="nav-item text-nowrap">
 
-/* <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow"> 
+/* <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow"> */
 
  .navbar {
   background-color: #484848;
   color: white;
  }
 
- /* <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Outdoor Adventures</a> 
+ /* <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Outdoor Adventures</a> */
 
 .navbar-brand {
   padding-top: .75rem;
@@ -212,7 +170,7 @@ body {
   right: 1rem;
 }
 
-/*<input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+/*<input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search"> */
 
 .navbar .form-control {
   padding: .75rem 1rem;
@@ -231,11 +189,9 @@ body {
   border-color: transparent;
 }
 
-/*<a class="nav-link px-3" href="#">Sign out</a>
+/*<a class="nav-link px-3" href="#">Sign out</a> */
 
 .nav-link {
   color: white;
   background-color: #484848;
 }
-
-*/
