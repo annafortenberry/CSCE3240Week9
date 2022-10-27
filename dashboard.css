@@ -67,7 +67,7 @@ body {
 }
 
 .sidebar .nav-link.active {
-  color: paleturquoise;
+  color: magenta;
 }
 
 .sidebar .nav-link:hover .feather,
