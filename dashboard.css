@@ -12,6 +12,7 @@ body {
   width: 16px;
   height: 16px;
   vertical-align: text-bottom;
+  color: white;
 }
 
 /*
@@ -121,7 +122,6 @@ body {
 .form-control-dark {
   color: #fff;
   background-color: #484848;
-  border-color: yellow;
 }
 
 .form-control-dark:focus {
@@ -134,3 +134,4 @@ body {
   background-color: #484848;
   color: white;
 }
+
