@@ -31,8 +31,8 @@ body {
   z-index: 100; /* Behind the navbar */
   padding: 100px 0 0; /*48px 0 0; /* Height of navbar */
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
-  color: red;
-  background-color: red;
+  /*color: red;
+  background-color: red;*/
 }
 
 @media (max-width: 767.98px) {
@@ -48,27 +48,31 @@ body {
   padding-top: .5rem;
   overflow-x: hidden;
   overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-  color: orange;
-  background-color: orange;
+  /*color: orange;
+  background-color: orange;*/
 }
 
-.sidebar .nav-item {  
+/*.sidebar .nav-item {  
   color: purple;
-}
+}*/
 
 .sidebar .nav-link {
   font-weight: 500;
-  color: green;
-  background-color: green;
+  color: grey;
+  background-color: #202020;
 }
 
 .sidebar .nav-link .feather {
   margin-right: 4px;
-  color: magenta;
+  /*color: magenta;*/
 }
 
 .sidebar .nav-link.active {
-  color: rgb(57, 20, 100);
+  color: rgb(103, 6, 214);
+}
+
+.home {
+  color: rgb(103, 6, 214);
 }
 
 .sidebar .nav-link:hover .feather,
