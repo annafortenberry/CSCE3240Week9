@@ -1,3 +1,7 @@
+* {
+  color: white;
+}
+
 body {
   font-size: .875rem;
   background-color: #202020;
@@ -92,11 +96,6 @@ body {
 /*
 * {
   color: white;
-  background-color: #202020;
-}
-
-body {
-  font-size: .875rem;
   background-color: #202020;
 }
 
