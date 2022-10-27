@@ -23,6 +23,14 @@ body {
   background-color: #202020;
  }
 
+ .row {
+  background-color: #202020;
+ }
+
+ #sidebarManu {
+  background-color: #202020;
+ }
+
 .sidebar {
   position: fixed;
   top: 0;
